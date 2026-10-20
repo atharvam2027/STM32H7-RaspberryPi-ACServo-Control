@@ -4,7 +4,7 @@
 
 An embedded motion-control project integrating an **STM32H7A3ZI-Q Nucleo-144** with a **Raspberry Pi 5** to control two AC servo motor axes through UART commands and pulse and direction signals.
 
-The STM32 firmware handles real-time pulse generation, direction control, UART command processing, and motion-completion reporting. A Python application running on the Raspberry Pi sends angle- and RPM-based motion commands to the STM32 over UART.
+The STM32 firmware handles real-time pulse generation, direction control, UART command processing, and motion-completion reporting. A Python application running on the Raspberry Pi sends angle and RPM based motion commands to the STM32 over UART.
 
 This project focuses on practical embedded firmware development, peripheral configuration, timer-based motor control, serial communication, and hardware–software integration for robotics.
 
