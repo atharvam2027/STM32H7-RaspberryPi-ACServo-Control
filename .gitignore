@@ -1,0 +1,21 @@
+
+# STM32CubeIDE build files
+Debug/
+Release/
+**/Debug/
+**/Release/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+venv/
+
+# Local environment files
+.env
+
+# OS files
+.DS_Store
+Thumbs.db
